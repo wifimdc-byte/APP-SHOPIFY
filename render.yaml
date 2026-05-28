@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: melhor-das-casas-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm ci || npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/health
+
+databases:
+  - name: melhor-das-casas-db
+    plan: free
+    databaseName: melhor_das_casas
+    user: melhor_das_casas_user
+

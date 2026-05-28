@@ -1,0 +1,31 @@
+# Configuração para integração com banco existente
+# Copie este arquivo para .env e configure com seus dados
+
+# Database - Use as mesmas credenciais do seu app de gestão
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=seu_banco_existente
+DB_USER=postgres
+DB_PASSWORD=sua_senha
+
+# JWT
+JWT_SECRET=sua_chave_secreta_jwt
+JWT_EXPIRES_IN=7d
+
+# Server
+PORT=3001
+NODE_ENV=development
+
+# Firebase Storage (opcional)
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_PRIVATE_KEY=your_private_key
+FIREBASE_CLIENT_EMAIL=your_client_email
+
+# Configurações de integração
+TABLE_PREFIX=melhor_casas_
+
+
+
+
+
+
