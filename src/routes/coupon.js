@@ -9,7 +9,7 @@ const pool = require('../database/connection');
 const CAMPAIGN_START_DATE = '2026-02-28'; // YYYY-MM-DD (Brasília)
 const CAMPAIGN_LIMIT = 20;
 const CAMPAIGN_DURATION_MONTHS = 5;
-const CAMPAIGN_END_DATE = '2026-07-28'; // 28/02 + 3 meses
+const CAMPAIGN_END_DATE = '2026-08-28'; // 28/02 + 3 meses
 
 // Função auxiliar para converter uma Date para data (YYYY-MM-DD)
 // considerando horário de Brasília (UTC-3). A ideia é pegar a data
